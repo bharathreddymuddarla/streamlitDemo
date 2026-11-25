@@ -8,7 +8,7 @@ budget=st.number_input("Enter Budget: ")
 
 travel_type=st.selectbox(
     "Travel Type",
-    ["Solo","Family","Couple","Business"]
+    ["Solo","Family","Couple","Business","Vacation"]
     )
 
 interest =st.multiselect(
